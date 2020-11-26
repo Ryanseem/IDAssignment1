@@ -480,7 +480,7 @@ nav{
     }
     .slides img{
         width: 30vw;
-        min-height: 25vh;
+        min-height: auto;
     }
     #radio5:checked ~ .first{
         margin-left: 0;
@@ -497,9 +497,6 @@ nav{
     .album li{
         font-size: 1.5vw;
     }
-    body{
-        overflow-x: hidden;
-      }
    
     
 }
