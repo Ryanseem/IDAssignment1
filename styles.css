@@ -270,8 +270,7 @@ nav{
     position: relative;
 }
 .album li{
-    font-size: 1.5vw;
-   
+    font-size: 1.5vw; 
 }
 
 .slider{
@@ -472,6 +471,9 @@ nav{
     #radio16:checked ~ .first{
         margin-left: -335%;
     }
+    .album li{
+        font-size: 1.4vw;
+    }
 }
 @media (max-width: 700px) {
     .slides2 img{
@@ -480,7 +482,7 @@ nav{
     }
     .slides img{
         width: 30vw;
-        min-height: auto;
+        min-height: 22vh;
     }
     #radio5:checked ~ .first{
         margin-left: 0;
@@ -497,8 +499,6 @@ nav{
     .album li{
         font-size: 1.5vw;
     }
-   
-    
 }
 
 
