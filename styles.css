@@ -478,6 +478,10 @@ nav{
         width: 30vw;
         min-height: 25vh;
     }
+    .slides img{
+        width: 30vw;
+        min-height: 25vh;
+    }
     #radio5:checked ~ .first{
         margin-left: 0;
     }
@@ -493,7 +497,9 @@ nav{
     .album li{
         font-size: 1.5vw;
     }
-   
+    body{
+        overflow-x: hidden;
+      }
    
     
 }
