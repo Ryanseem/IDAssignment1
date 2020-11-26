@@ -8,6 +8,15 @@
         <link rel="stylesheet" href="normalise.css">
         <link rel="stylesheet" href="styles.css">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <style>
+            body{
+                background-image: url("cover page.jpg");
+                background-size: cover;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-position: 50%;
+            }
+        </style>
         <div id="container">
             <div id="main">
                 <nav>
@@ -44,19 +53,24 @@
         </div>
     </head>
     <body>
-        
-        <script src="app.js"></script>
-            
-        <video  autoplay muted loop   class='video' >
-            <source src="background-1975-website-final (1).mp4" type="video/mp4">
-        </video>
-        
-        <div class="intro">
-            <h3>Welcome to 1975 fanpage</h3>
-            <p >The videos and images are not owned by me</p>
+        <div class="contact-form">
+            <h1>Contact Me</h1>
+            <form class="txtb">
+                <label for="name">Full Name :</label>
+                <input type="text" name="name" placeholder="Enter Your Name" autocomplete="on">
+            </form>
+
+            <form class="txtb">
+                <label>Email :</label>
+                <input type="email" name="" value="" placeholder="Enter Your Email" required>
+            </form>
+
+            <form class="txtb">
+                <label>Message :</label>
+                <textarea></textarea>
+            </form>
+            <a class="btn">Send</a>
         </div>
-        
-        
     </body>
     <footer id="footer">
         <div class="main">
