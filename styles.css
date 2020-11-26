@@ -268,11 +268,14 @@ nav{
 }
 .album{
     position: relative;
+    left: 2%;
 }
 .album li{
     font-size: 1.5vw; 
 }
-
+.source{
+    font-size: 1.1vw;
+}
 .slider{
     width: auto;
     overflow: hidden;
@@ -472,7 +475,7 @@ nav{
         margin-left: -335%;
     }
     .album li{
-        font-size: 1.4vw;
+        font-size: 1.3vw;
     }
 }
 @media (max-width: 700px) {
