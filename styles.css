@@ -41,7 +41,7 @@ nav{
     align-items: center;
     min-height: 8vh;
     background-color: rgba(240, 248, 255, 0.795);
-    font-family: 'Century Gothic', ;
+    
     
 }
 
@@ -49,7 +49,7 @@ nav{
     color: rgb(43, 42, 35);
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 15;
+    font-size: 2vw;
 }
 
 .nav-links{
@@ -152,7 +152,6 @@ nav{
     transition: transform 1s ease-in-out;
     animation-duration: 2s; 
     animation-fill-mode: forwards;
-    font-family: 'Century Gothic', ;
     font-size: 40px;
     color: aliceblue;
 }
@@ -314,12 +313,12 @@ nav{
 .text h1{
     text-align: center;
     padding-bottom: 3%;
-    font-family: 'Century Gothic', ;
+    
 }
 .text2 h1{
     text-align: center;
     padding-bottom: 3%;
-    font-family: 'Century Gothic', ;
+    
     display: flex;
 }
 
@@ -442,6 +441,7 @@ nav{
     .slides2 img{
         width: 30vw;
         min-height: 35vh;
+        object-fit: cover;
     }
     #radio5:checked ~ .first{
         margin-left: 0;
@@ -574,6 +574,58 @@ nav{
         font-size: 1.5vw;
     }
 }
+@media (max-width: 700px) {
+    .slides2 img{
+        width: 30vw;
+        min-height: 25vh;
+    }
+    .slides img{
+        width: 30vw;
+        min-height: 22vh;
+        object-fit: cover;
+    }
+    #radio5:checked ~ .first{
+        margin-left: 0;
+    }
+    #radio6:checked ~ .first{
+        margin-left: -32%;
+    }
+    #radio7:checked ~ .first{
+        margin-left: -65%;
+    }
+    #radio8:checked ~ .first{
+        margin-left: -97%;
+    }
+    .album li{
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-device-width:900px){
+    body{
+      overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: rgba(240, 248, 255, 0.952) ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        z-index: 1;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+}
+
 
 
 
