@@ -327,6 +327,10 @@ nav{
     
     display: flex;
 }
+/* video page */
+.vid iframe{
+    
+}
 /* album page */
 .table{
     display: flex;
