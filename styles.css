@@ -285,9 +285,11 @@ nav{
 .flex-item3{
     padding: 2%;
     display: flex;
-   
 }
-
+.vid iframe{
+    display: block;
+    margin: 0 auto;
+}
 .text{
     background-color: rgba(241, 159, 159, 0.842); 
     
@@ -351,7 +353,6 @@ nav{
 .slides2{
     display: flex;
     width:95vw;
-   
 }
 
 .slides2 input{
@@ -455,6 +456,18 @@ nav{
     #radio8:checked ~ .first{
         margin-left: -97%;
     }
+    #radio9:checked ~ .first{
+        margin-left: 0;
+    }
+    #radio10:checked ~ .first{
+        margin-left: -110%;
+    }
+    #radio11:checked ~ .first{
+        margin-left: -222%;
+    }
+    #radio12:checked ~ .first{
+        margin-left: -325%;
+    }
     #radi13:checked ~ .first{
         margin-left: 0;
     }
@@ -493,6 +506,18 @@ nav{
     }
     #radio8:checked ~ .first{
         margin-left: -97%;
+    }
+    #radio9:checked ~ .first{
+        margin-left: 0;
+    }
+    #radio10:checked ~ .first{
+        margin-left: -118%;
+    }
+    #radio11:checked ~ .first{
+        margin-left: -240%;
+    }
+    #radio12:checked ~ .first{
+        margin-left: -350%;
     }
 }
 
@@ -554,6 +579,7 @@ nav{
         width: 30vw;
         min-height: 25vh;
     }
+    
     .slides img{
         width: 30vw;
         min-height: 22vh;
@@ -569,6 +595,18 @@ nav{
     }
     #radio8:checked ~ .first{
         margin-left: -97%;
+    }
+    #radio9:checked ~ .first{
+        margin-left: 0;
+    }
+    #radio10:checked ~ .first{
+        margin-left: -99%;
+    }
+    #radio11:checked ~ .first{
+        margin-left: -220%;
+    }
+    #radio12:checked ~ .first{
+        margin-left: -335%;
     }
     .album li{
         font-size: 1.5vw;
