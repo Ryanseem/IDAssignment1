@@ -329,7 +329,11 @@ nav{
 }
 /* video page */
 .vid iframe{
-    
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 60vw;
+    height: 70vh;
 }
 /* album page */
 .table{
